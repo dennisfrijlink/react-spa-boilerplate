@@ -1,0 +1,1 @@
+The hooks folder is used for defining custom hooks.

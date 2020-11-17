@@ -1,0 +1,1 @@
+The `assets` folder I have three subfolders. First for the main css/scss files. Think of mixins, breakpoints or defined fonts. Secondly, the  folder `images` and I think this folder speaks for itself. And at last the folder `fonts` for the local font-files.

@@ -1,0 +1,1 @@
+Layouts are a great help when you want to change the look and feel of the React.js app. Whether you want to include a sidebar or have distinct layouts for mobile and desktop.
