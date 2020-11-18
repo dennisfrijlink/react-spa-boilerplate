@@ -1,1 +1,1 @@
-Furthermore, we have the famous components folder. Re-usable functions will be put in the components folder and it can be used by functional components in the views folder.
+Furthermore, we have the famous components folder. Re-usable functions will be put in the components folder and it can be used by functional components.
