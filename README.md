@@ -18,6 +18,7 @@
 	- [Hooks](#user-content-hooks)
 	- [Layouts](#user-content-layouts)
 	- [Pages](#user-content-pages)
+- [App Structure](#user-content--app-structure)
 - [Mobile first](#user-content--breakpoints-mobile-first)
 
 ## ✨ Quick start
@@ -85,7 +86,7 @@ The components directory contains your React.js components. Components are what 
 The hooks directory contains all your custom Hooks.  Custom hooks are a mechanism to reuse stateful logic.
 
 ### Layouts
-Layouts are the wrapper around the React Router [(check structure)](). Inside the Layout you'll see the router with links to the pages.
+Layouts are the wrapper around the React Router [(check structure)](#user-content--app-structure). Inside the Layout you'll see the router with links to the pages.
 ```
 -| layouts/
 ----| app.js
@@ -134,6 +135,11 @@ const  Root  = (props) => {
    );
 };
 ```
+## App Structure
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/dennisfrijlink/development-utilities/636b12091d93560a23dab3e671c32300706e3044/images/React-Spa-boilerplate.svg" alt="App structure of React SPA boilerplate">
+</p>
+
 ## 📱 Breakpoints mobile first
 The scss folder located in  ``./assets/scss/``  contains two files to make it easier for web developers to prototype, build, scale, and maintain CSS for responsive websites:
 ### SCSS Files
