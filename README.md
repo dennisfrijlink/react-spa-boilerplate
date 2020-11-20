@@ -13,11 +13,11 @@
 - [Quick start](#user-content--quick-start)
 - [What is a SPA](#user-content-️-what-is-a-single-page-application) 
 - [Folder Structure](#user-content-folder-structure)
-	- [Assets]()
-	- [Components]()
-	- [Hooks]()
-	- [Layouts]()
-	- [Pages]()
+	- [Assets](#user-content-assets)
+	- [Components](#user-content-compnents)
+	- [Hooks](user-content-hooks)
+	- [Layouts](user-content-layouts)
+	- [Pages](user-content-pages)
 - [Mobile first](#user-content--breakpoints-mobile-first)
 
 ## ✨ Quick start
