@@ -18,7 +18,7 @@
 	- [Hooks](#user-content-hooks)
 	- [Layouts](#user-content-layouts)
 	- [Pages](#user-content-pages)
-- [App Structure](#user-content--app-structure)
+- [App Structure](#user-content-app-structure)
 - [Mobile first](#user-content--breakpoints-mobile-first)
 
 ## ✨ Quick start
@@ -86,7 +86,7 @@ The components directory contains your React.js components. Components are what 
 The hooks directory contains all your custom Hooks.  Custom hooks are a mechanism to reuse stateful logic.
 
 ### Layouts
-Layouts are the wrapper around the React Router [(check structure)](#user-content--app-structure). Inside the Layout you'll see the router with links to the pages.
+Layouts are the wrapper around the React Router [(check structure)](#user-content-app-structure). Inside the Layout you'll see the router with links to the pages.
 ```
 -| layouts/
 ----| app.js
