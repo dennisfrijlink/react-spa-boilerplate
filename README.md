@@ -1,3 +1,4 @@
+
 <p align="center">
   <img width="400" src="https://raw.githubusercontent.com/dennisfrijlink/development-utilities/c6575f43bf340f38a05bafb26705240961e5a766/images/React-Spa.svg" alt="logo of React Single Page Application Repository">
 </p>
@@ -14,6 +15,7 @@
 - [What is a SPA](#user-content-️-what-is-a-single-page-application) 
 - [Folder Structure](#user-content-folder-structure)
 	- [Assets](#user-content-assets)
+		- [fonts]()
 	- [Components](#user-content-components)
 	- [Hooks](#user-content-hooks)
 	- [Layouts](#user-content-layouts)
@@ -67,11 +69,34 @@ The `assets` folder has three subfolders. First for the main css/scss files. Thi
 -| assets/
 ----| images/
 ----| scss/
-------| DMSans-Regular.ttf
-------| DMSans-Bold.ttf
+------| _all.scss
+------| _mixins.scss
+------| breakpoints.scss
 ----| fonts/
-------| DMSans-Regular.ttf
-------| DMSans-Bold.ttf
+------| fonts.css
+------| DM_Sans/
+-------| DMSans-Regular.ttf
+-------| DMSans-Bold.ttf
+```
+There are two standard declarations for the font types:
+```
+/* standard declrations */
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'DM sans';
+}
+body {
+  font-family: 'Arial';
+}
+```
+These font-families are defined in the same file  `font.css`:
+```
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/DM_Sans/DMSans-Regular.ttf') format('truetype');
+}
 ```
 ### components
 The components directory contains your React.js components. Components are what makes up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
