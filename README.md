@@ -15,7 +15,7 @@
 - [What is a SPA](#user-content-️-what-is-a-single-page-application) 
 - [Folder Structure](#user-content-folder-structure)
 	- [Assets](#user-content-assets)
-		- [fonts]()
+		- [fonts](#user-content-fonts)
 	- [Components](#user-content-components)
 	- [Hooks](#user-content-hooks)
 	- [Layouts](#user-content-layouts)
