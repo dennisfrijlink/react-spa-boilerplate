@@ -78,6 +78,7 @@ The `assets` folder has three subfolders. First for the main css/scss files. Thi
 -------| DMSans-Regular.ttf
 -------| DMSans-Bold.ttf
 ```
+#### fonts
 There are two standard declarations for the font types:
 ```
 /* standard declrations */
