@@ -80,7 +80,7 @@ The `assets` folder has three subfolders. First for the main css/scss files. Thi
 ```
 #### fonts
 There are two standard declarations for the font types:
-```
+```css
 /* standard declrations */
 h1,h2,h3,h4,h5,h6 {
   font-family: 'DM sans';
@@ -90,7 +90,7 @@ body {
 }
 ```
 These font-families are defined in the same file  `font.css`:
-```
+```css
 @font-face {
   font-family: 'DM Sans';
   font-style: normal;
