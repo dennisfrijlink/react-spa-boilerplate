@@ -1,1 +1,5 @@
-The `assets` folder I have three subfolders. First for the main css/scss files. Think of mixins, breakpoints or defined fonts. Secondly, the  folder `images` and I think this folder speaks for itself. And at last the folder `fonts` for the local font-files.
+# ASSETS
+
+**This directory is not required, you can delete it if you don't want to use it.**
+
+This directory contains your un-compiled assets such as LESS, SASS, or JavaScript.

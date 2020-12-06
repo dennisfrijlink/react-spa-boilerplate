@@ -1,24 +1,25 @@
-import React, { lazy, Suspense } from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import App from './layouts/App';
+import React from 'react';
+import { HashRouter as Router, Switch } from 'react-router-dom';
+import AppRoute from './router/AppRoute'; 
 
-import './assets/sass/_all.scss'
+import ErrorLayout from './layouts/ErrorLayout';
+import MainLayout from './layouts/MainLayout';
 
-const Home = lazy(() => import("./pages/Home"));
-const About = lazy(() => import("./pages/About"));
+import Error from './pages/Error';
+import Home from './pages/Home';
+import News from './pages/News';
 
 const Root = (props) => {
   return (
-  <Router>
-    <App>
-      <Suspense fallback={<div></div>}>
+    <Router>
+      <div>
         <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
+          <AppRoute exact path="/" layout={MainLayout} page={Home} />
+          <AppRoute exact path="/news" layout={MainLayout} page={News} />
+          <AppRoute exact path="/error" layout={ErrorLayout} page={Error} />
         </Switch>
-      </Suspense>
-    </App>
-  </Router>
+      </div>
+    </Router>
   );
 };
 
