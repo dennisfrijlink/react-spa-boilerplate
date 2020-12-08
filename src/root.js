@@ -9,7 +9,10 @@ import Error from './pages/Error';
 import Home from './pages/Home';
 import News from './pages/News';
 
-const Root = (props) => {
+import './assets/css/fonts.css';
+import './assets/scss/main.scss';
+
+const Root = () => {
   return (
     <Router>
       <div>
