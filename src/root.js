@@ -1,8 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Switch } from 'react-router-dom';
 
-import './assets/css/fonts.css';
-import './assets/scss/main.scss';
+import './root.scss'
 
 const Root = () => {
   return (
