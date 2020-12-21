@@ -1,0 +1,26 @@
+.hero-logo {
+    text-align: center;
+    
+    svg {
+        width: 150px;
+        margin-bottom: 2rem;
+
+        @include md {
+            width: 300px;
+        }
+    }
+}
+
+.hero-header {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+
+    @include md {
+        font-size: 28px;
+    }
+
+    span {
+        color: #61dbfb;
+    }
+}

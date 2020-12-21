@@ -1,13 +1,24 @@
 import React from 'react';
 import { HashRouter as Router, Switch } from 'react-router-dom';
+import AppRoute from './router/AppRoute';
 
-import './root.scss'
+//styles
+import '../src/assets/css/fonts.css';
+import '../src/assets/css/theme.css';
+
+//layouts
+import MainLayout from './layouts/mainLayout/MainLayout';
+
+//pages
+import IndexPage from './pages/indexPage/IndexPage';
 
 const Root = () => {
   return (
     <Router>
       <div>
-        <Switch></Switch>
+        <Switch>
+          <AppRoute exact  path="/" layout={MainLayout} page={IndexPage}  />
+        </Switch>
       </div>
     </Router>
   );
