@@ -204,7 +204,7 @@ const Home = () => {
 ## App Structure
 
 <p align="center">
-<img width="100%" src="https://raw.githubusercontent.com/dennisfrijlink/development-utilities/28a2684aa82a9445aef9ec31c662d83b7245a8ae/images/React-Spa-boilerplate.svg" alt="App structure of React SPA boilerplate">
+<img width="100%" src="https://raw.githubusercontent.com/dennisfrijlink/development-utilities/8294fdae27fa313158f9e4d78e2495a7658357b3/images/React-Spa-boilerplate.svg" alt="App structure of React SPA boilerplate">
 </p>
 
 ## 📱 Breakpoints mobile first
