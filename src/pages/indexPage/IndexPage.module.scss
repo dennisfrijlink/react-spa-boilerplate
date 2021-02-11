@@ -1,0 +1,18 @@
+.heroLogo {
+    text-align: center;
+}
+
+.heroHeader {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 1rem;
+
+    @include md {
+        font-size: 28px;
+    }
+
+    span {
+        color: #61dbfb;
+    }
+}

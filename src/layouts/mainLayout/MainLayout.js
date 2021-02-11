@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './MainLayout.scss';
+import styles from './MainLayout.module.scss';
 
 const MainLayout = props => {
     return (
-        <div className="hero">
+        <div className={styles.hero}>
             {props.children}
         </div>
     )
