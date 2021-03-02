@@ -17,7 +17,7 @@ const Root = () => {
     <Router>
       <div>
         <Switch>
-          <AppRoute exact  path="/" layout={MainLayout} page={IndexPage}  />
+          <AppRoute exact path="/" layout={MainLayout} page={IndexPage}/>
         </Switch>
       </div>
     </Router>
